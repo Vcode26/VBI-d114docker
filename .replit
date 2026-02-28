@@ -1,0 +1,15 @@
+# Replit Configuration for XFCE Desktop Environment
+
+# Main run command
+run = "bash quick-start.sh"
+
+# Alternative: If desktop is already installed, use this instead:
+# run = "bash start-desktop.sh"
+
+# Configure the web view
+[deployment]
+run = ["sh", "-c", "bash start-desktop.sh"]
+
+[[ports]]
+localPort = 6080
+externalPort = 80
